@@ -1515,6 +1515,7 @@ header.hero-invisible #menu .open-filter, header.hero-invisible #menu .open-shar
 ------------------------------------------------*/
 .single-pagination {
 	list-style: none;
+	padding: 1px 0; /*hotfix*/
 	margin: 120px 0 !important;
 	position: relative;
 	}
