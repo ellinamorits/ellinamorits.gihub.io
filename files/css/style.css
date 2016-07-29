@@ -88,44 +88,44 @@ audio:not([controls]) { display: none; }
 
 @font-face {
      font-family: ProximaNova-Light;
-     src: url('http://files/css/files/fonts/ProximaNova-Light-webfont.ttf');
+     src: url('http://https://ellinamorits.github.io/files/css/https://ellinamorits.github.io/files/fonts/ProximaNova-Light-webfont.ttf');
 		 font-weight: normal;
 		 font-style: normal;
 }
 @font-face {
      font-family: ProximaNova-Light;
-     src: url('http://files/css/files/fonts/ProximaNova-LightItalic.otf');
+     src: url('http://https://ellinamorits.github.io/files/css/https://ellinamorits.github.io/files/fonts/ProximaNova-LightItalic.otf');
 		 font-weight: normal;
 		 font-style: italic;
 }
 @font-face {
      font-family: ProximaNova-Light;
-     src: url('http://files/css/files/fonts/ProximaNova-Semibold.otf');
+     src: url('http://https://ellinamorits.github.io/files/css/https://ellinamorits.github.io/files/fonts/ProximaNova-Semibold.otf');
 		 font-weight: bold;
 		 font-style: normal;
 }
 @font-face {
      font-family: ProximaNova-Light;
-     src: url('http://files/css/files/fonts/ProximaNova-SemiboldItalic.otf');
+     src: url('http://https://ellinamorits.github.io/files/css/https://ellinamorits.github.io/files/fonts/ProximaNova-SemiboldItalic.otf');
 		 font-weight: bold;
 		 font-style: italic;
 }
 
 @font-face {
      font-family: ProximaNova-Bold;
-     src: url('http://files/css/files/fonts/ProximaNova-Bold.otf');
+     src: url('http://https://ellinamorits.github.io/files/css/https://ellinamorits.github.io/files/fonts/ProximaNova-Bold.otf');
 		 font-weight: normal;
 		 font-style: normal;
 }
 @font-face {
      font-family: ProximaNova-Bold;
-     src: url('http://files/css/files/fonts/ProximaNova-BoldIt.otf');
+     src: url('http://https://ellinamorits.github.io/files/css/https://ellinamorits.github.io/files/fonts/ProximaNova-BoldIt.otf');
 		 font-weight: normal;
 		 font-style: italic;
 }
 @font-face {
      font-family: ProximaNova-Bold;
-     src: url('http://files/css/files/fonts/ProximaNova-Extrabold.otf');
+     src: url('http://https://ellinamorits.github.io/files/css/https://ellinamorits.github.io/files/fonts/ProximaNova-Extrabold.otf');
 		 font-weight: bold;
 		 font-style: normal;
 }
@@ -931,7 +931,7 @@ footer #backtotop {
 	color: #0d0d0d;
 	line-height: 20px;
 	position: absolute;
-	bottom: 20px;
+	bottom: 10px;
 	left: 50%;
 	margin-left: -50px;
 	width: 100px;
@@ -2244,7 +2244,7 @@ a.sr-button2 { background: #66A3FF; }
 #hero .page-title {
 	padding-top: 50px;
 	padding-bottom: 80px;
-	
+
 }
 
 nav#main-nav > ul > li:hover > a, nav#main-nav > ul > li.current-menu-item > a { color: #0d0d0d !important; }
@@ -2268,13 +2268,13 @@ nav#main-nav ul li > a { color: #808080; }
 
 .tagline {
 	padding-top: 15px;
-	
+
 }
 
 .black-button {
 	background: #0d0d0d;
 }
-	
+
 span.highlight {
   background-color: rgba(102, 163, 255, 0.85);
 	color: white;
@@ -2291,7 +2291,7 @@ h2.tagline {
 
 
 .single-pagination span {
-	background:#0d0d0d; 
+	background:#0d0d0d;
 	padding: 10px;
 	color: pink;
 }
@@ -2312,5 +2312,5 @@ header.header-open:not(.header-transparent) + #hero, header.header-open:not(.hea
 
 #page-body.lesstop { padding-top: 110px; }
 #page-body lesstop {
-	
+
 }
