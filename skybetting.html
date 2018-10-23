@@ -9,7 +9,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Sberbank | Ellina Morits</title>
+<title>SkyBet | Ellina Morits</title>
 <!-- DEFAULT META TAGS -->
 
 <!-- FONTS -->
@@ -31,6 +31,20 @@
 <!-- FAVICON -->
 <link rel="shortcut icon" href="files/uploads/favicon.png"/>
 <!-- FAVICON -->
+
+<!-- JAVASCRIPT -->
+<script>
+function checkPassword() {
+	var curr_password = document.getElementById('protected-content-password').value;
+	if (btoa(curr_password) == 'VXg0TGlmZQ==') {
+		document.getElementById('protected-content-form').style.display = 'none';
+		document.getElementById('protected-content').style.display = 'block';
+	} else {
+		document.getElementById('protected-content-form-wrong-alert').style.display = 'block';
+	}
+}
+</script>
+<!-- JAVASCRIPT -->
 
 </head>
 
@@ -107,8 +121,123 @@
 <p>
 Working with stakeholders to uncover powerful insights and turn ideas into tangible outcomes whilst managing expectations.
 Taking business problem statements through a lean discovery cycle of ideation, hypothesis creation, wireframe, rapid prototyping and usability testing to build confidence in features for a site that handles more weekly transactions than Amazon on Black Friday.
+</p>
+
+<p>
 Implemented a bi-weekly usability testing programme that ensures the business can observe customers using the latest product iteration before development effort is wasted on unusable or undesirable focus areas.
-Work closely with development squads to ensure a smooth phased release to customers, re-prioritising as necessary.</p>
+</p>
+
+<p>
+Work closely with development squads to ensure a smooth phased release to customers, re-prioritising as necessary.
+</p>
+</div>
+
+<div class="wrapper-small" id="protected-content-form">
+	<p> </p>
+	<h3>Restricted Area</h3>
+	<p>Please, enter the password to show the remaining content.</p>
+
+	<form action="#" onsubmit="checkPassword(); return false;" style="margin-top:20px">
+	  <div>
+	    <label for="name">Password:</label>
+	    <input type="text" id="protected-content-password" name="password">
+	  </div>
+	</form>
+
+	<div id="protected-content-form-wrong-alert" style="display:none;">
+		<p style="color:red">You entered wrong password, try again</p>
+	</div>
+</div>
+
+<div class="wrapper-small" id="protected-content" style="display:none;">
+<p> </p>
+<p>
+	The teams are project-based and I am working with a few teams, I would like to go into more detail about two projects I am working have been working on in the last few months. The following example are just a small part of my daily work, which I will be happy to talk more about in person.
+</p>
+
+<h3>Promotions</h3>
+<p>
+I am working with the ‘Promotions’ squad on creating a better experience of interacting with promotions across the site. Working on promotions is tightly connected to working with marketing and hitting the financial KPIs above all else. From UX point of view it is an interesting challenge.
+</p>
+
+<p>
+<img src="files/uploads/skybet/contextual research session.png" alt="contextual research session" />
+</p>
+
+<p>
+We started the process with compiling the facts that we know. Firstly, the contact centre complaints suggested that the main pain points are unclear Terms & Conditions as well as when free bets are credited. Then, brand tracker and marketing research showed that perception of our promotions is worse than for some of our competitors. And finally, previous usability studies have shown that a lot of people are not aware of the existence of the promotions page, which was backed up by low visits on the analytics dashboard. 
+
+Working closely with a digital designer and product manager we made a list of pain points and opportunities based on all the data. Then asked ourselves what we already know, what we don’t know and how are we going to approach the challenge of redesigning the promotions experience. 
+</p>
+
+<p>
+<img src="files/uploads/skybet/journey mapping.jpg" alt="journey mapping" />
+</p>
+
+<p>
+Afterwards, we went off and had white-boarding and sketching sessions, creating storyboards, which helped us consider different users and different use-cases - thus, being able to see clearer where the current pain points occur, where we can relieve anxiety and where we can bring little delighters.
+</p>
+
+<p>
+<img src="files/uploads/skybet/story boards.jpg" alt="storyboards" />
+</p>
+
+<p>
+After the white boarding session and in-depth interviews with users we went on to create concepts and prototypes and had a dedicated usability session. The findings from that allowed us to get together with the team including tech leads and BAs and go through what’s going to bring the highest value from UX and business points of view as well as be feasible tech-wise. 
+</p>
+
+<p>
+In the meantime we addressed smaller issues of making T&Cs clearer and signposting the promotions page better. We A/B tested placements of the promos page icon and got a big uplift in visits and engagement just from linking it to the homage and notifying people weekly about their progress with he loyalty scheme.
+</p>
+
+<p>
+The next steps are exploring the prioritised concepts in more detail and having more creative workshops.  
+</p>
+
+
+<h3>RequestABet</h3>
+
+<p>
+RequestABet is a feature that used to be industry leading but was abandoned for a while and  when I joined the team it was far behind all the competitors. Therefore, with RequestABet we had a different project approach.
+</p>
+
+<p>
+We knew the biggest pain points in our product simply because the tech behind it could only allow for 40% of all interactions to be successful. The immediate next steps were clear - to bring the tech to the appropriate level and make sure the interactions are intuitive and enjoyable. 
+</p>
+
+<p>
+<img src="files/uploads/skybet/competitor analysis.png" alt="competitor analysis" />
+</p>
+
+
+<p>
+To get immersed into the project I did competitor analysis and remote usability testing for each of their products. The analysis gave food for thought and themes to research - since some features implemented by our competitors seems to be working better than others. 
+<p>
+
+<p>
+<img src="files/uploads/skybet/remote testing findings.png" alt="remote testing" />
+</p>
+
+<p>
+After that we had a session with the product manager and tech leads and discussed what the MVP is and what the big vision for the future is. Then we took a few designs to usability testing and worked out minor improvements on top of the MVP. 
+</p>
+
+<p>
+<img src="files/uploads/skybet/usability testing findings.png" alt="usability testing findings" />
+</p>
+
+<p>
+Then we sat down with the CRO and the analytics team to ensure that we definitely are tracking the roll-out of the new features and that we can get answers to the questions about behaviour changes if there are any. 
+</p>
+
+<p>
+At this point of the project lifecycle we are waiting for a release to Beta customers, and in parallel looking at the grand vision. Mini design sprints dedicated to bet placement and bet tracking are planned. 
+</p>
+
+<p>
+<img src="files/uploads/skybet/design sprint idea generation.jpg" alt="design sprint idea generation" />
+</p>
+
 </div>
 
        <div class="spacer spacer-small"></div>
