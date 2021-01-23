@@ -34,9 +34,17 @@ h1,h2,h3,h4,h5 {
     font-family: SourceSansPro-Bold;
 }
 
+.header-container {
+    background: #ffffff;
+    margin-bottom: 20px;
+}
+
 .header h1 {
-    font-size: 16px;
-    margin-top: 23px;
+    font-size: 16px !important;
+    margin-top: 23px !important;
+    color: #000000 !important;
+    margin-bottom: 20px !important;
+    line-height: 17.6px !important;
 }
 
 nav {
@@ -49,7 +57,13 @@ nav a {
 }
 
 nav ul {
-margin-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+nav li {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 nav a.active {
@@ -78,11 +92,11 @@ p.bold {
 }
 
 .hero-heading {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .hero-right-spacer {
-    height: 20px;
+    height: 39px;
 }
 
 #methods-list {
@@ -205,6 +219,19 @@ p.bold {
     margin-top: 40px;
     font-size: 18px;
     margin-bottom: 50px;
+}
+
+.seemore {
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.seemore a {
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 .contact a {
