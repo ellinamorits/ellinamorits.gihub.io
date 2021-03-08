@@ -20,6 +20,9 @@
 <!-- FONTS -->
 
 <!-- CSS -->
+<link href="files/css/all.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="files/css/bootstrap.min.css" type="text/css" media="all" />
+<link rel="stylesheet" href="files/css/skybetting.css" type="text/css" media="all" />
 <link rel="stylesheet" id="default-style-css"  href="files/css/style.css" type="text/css" media="all" />
 <link rel="stylesheet" id="isotope-style-css"  href="files/css/isotope.css" type="text/css" media="all" />
 <link rel="stylesheet" id="wolf-css" href="files/css/wolf.css" type="text/css" media="all" />
@@ -49,39 +52,22 @@
 <!-- PAGE CONTENT -->
  <div id="page-content">
 
-  <!-- HEADER -->
-  <header id="header" class="header-open">
-   <div class="header-inner clearfix">
-
-    <div id="logo" class="left-float">
-     <a id="dark-logo" class="logotype smoothScroll" href="index.html"><img src="files/uploads/EllinaLogo.png" alt="Logo"></a>
+    <div class="header-container">
+        <div class="container">
+            <div class="row header">
+                <div class="col-md-4">
+                    <h1>Ellina Morits</h1>
+                </div>
+                <nav class="col-md-8">
+                    <ul class="list-unstyled list-inline pull-right">
+                        <li><a href="index.html">Work</a></li>
+                        <li><a href="about.html" class="active">About</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </div>
-
-				<div id="menu" class="right-float clearfix">
-					<a href="about.html#" class="open-nav"><span class="hamburger"></span><span class="text">Menu</span></a>
-
-					<nav id="main-nav">
-						<ul>
-							<li><a href="index.html#hero-description" class="smoothScroll">Portfolio</a>
-
-							</li>
-							<li class="current-menu-item"><a href="about.html" class="smoothScroll">About</a>
-
-							</li>
-							<li><a href="index.html#resume" class="smoothScroll">Resume</a></li>
-							<li><a href="index.html#contact" class="smoothScroll">Contact</a></li>
-
-						</ul>
-					</nav>
-
-				</div>
-
-
-
-			</div>
-			<!-- END .header-inner -->
-		</header>
-	<!-- HEADER -->
 
     <!-- HERO  -->
 	<section id="hero" class="hero-half">
@@ -99,6 +85,35 @@
 	<div class="page-title wrapper-small">
 				<h3 class="alttitle align-center">Design is not art. Design is about crafting solutions to real problems.</h3><h5 class="align-center">Mark Boulton</h5>
 			</div>
+
+
+            <div id="perspective" class="wrapper" style="margin-top: 100px;">
+                <h4 class="align-center"><strong>Core Values</strong></h4>
+                <h5 class="alttitle align-center">My versatile personal and educational background has given me unique perspectives to bring to the table when designing innovative products.</h5>
+                <div class="column-section clearfix">
+                 <div class="column one-third align-center">
+                       <i class="ion ion-university ion-4x colored"></i>
+                       <h5>Always Keep Learning</h5>
+                       <p> Being a naturally curious person, I find learning new things an essential part of my life journey. For me traditional sources such as books, articles, courses stand alongside with travelling, trying out new activities and exploring the world. Learning new things inspires me and helps me become a better professional.</p>
+                   </div>
+   
+                   <div class="column one-third align-center">
+                       <i class="ion ion-earth ion-4x colored"></i>
+                       <h5>Embrace Cultural Differences</h5>
+                       <p>Having had the opportunity to live and study in several countries, I have developed a deeper understanding and empathy towards different cultures. I believe that communication is key to successful design. I truly enjoy engaging with different users, finding out more about their mental models and creating beautiful user experiences.</p>
+                   </div>
+   
+                   <div class="column one-third last-col align-center">
+                       <i class="ion ion-lightbulb ion-4x colored"></i>
+                       <h5>Understand the Mind</h5>
+                       <p>The way the mind works has always been fascinating to me. Getting education in such different spheres as communication and business allowed me to cross paths with interesting people and observe how they interact with technology. This helped me learn to base my design desicions on deep understanding of human psychology and dig deeper in order to deliver better work.</p>
+                   </div>
+   
+               </div>
+              </div>
+
+
+
 
 		 <div class="wrapper">
             <div id="culture" class="spacer spacer-medium"></div>
@@ -316,9 +331,34 @@
 
 
        	<div class="spacer spacer-big"></div>
-       	<h4 id="contact" class="align-center"><strong>Say hello</strong></h4>
-     <h5 class="alttitle align-center">Feel free to say hi! The best way to contact me is by email.</h5>
-     <p class="align-center"><a class="sr-button sr-button2" href="mailto:ellina.morits@gmail.com">Email me</a></p>
+       	<a name="contact"></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 contact">
+                <h4>Say Hello</h4>
+                <p>
+                    Get in touch for opportunities or just to say Hi! 👋
+                </p>
+                <ul class="social list-inline">
+                    <li class="twitter">
+                        <a href="https://twitter.com/Ellina_morits">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="linkedin">
+                        <a href="https://www.linkedin.com/in/emorits">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li class="email">
+                        <a href="mailto:ellina.morits@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
      <div class="spacer spacer-medium"></div>
 
  	</section>
@@ -368,6 +408,7 @@
 <script type="text/javascript" src="files/js/jquery.wolf.min.js"></script>
 <script type="text/javascript" src="files/js/jquery.isotope.min.js"></script>
 <script type="text/javascript" src="files/js/script.js"></script>
+<script type="text/javascript" src="files/js/bootstrap.min.js"></script>
 <!-- SCRIPTS -->
 
 </body>
